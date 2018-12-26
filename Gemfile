@@ -10,13 +10,18 @@ gem 'jquery-rails',         '4.0.0.beta2'
 gem 'turbolinks',           '2.3.0'
 gem 'jbuilder',             '2.2.3'
 gem 'arel',                 '6.0.0.beta2'
-gem 'rails-html-sanitizer', '1.0.1'
+gem 'rails-html-sanitizer', '>= 1.0.4'
 gem 'sdoc',                 '0.4.0', group: :doc
+gem "rack",                 ">= 1.6.11"
+gem "loofah",               ">= 2.2.3"
+gem "actionview",           ">= 4.2.7.1"
+gem "actionpack",           ">= 4.2.5.1"
+
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
-  gem 'web-console', '2.0.0.beta3'
+  gem 'web-console', '>= 2.1.3'
   gem 'spring',      '1.1.3'
 end
 
